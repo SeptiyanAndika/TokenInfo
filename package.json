@@ -1,0 +1,22 @@
+{
+  "name": "tokeninfo",
+  "version": "0.1",
+  "description": "Simple api to get balance Ethereum ERC20 tokens and Info about Ethereum ERC20 tokens",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeptiyanAndika/TokenInfo.git"
+  },
+  "author": "Septiyan Andika",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SeptiyanAndika/TokenInfo/issues"
+  },
+  "homepage": "https://github.com/SeptiyanAndika/TokenInfo#readme",
+  "dependencies": {
+    "web3": "^1.0.0-beta.34"
+  }
+}

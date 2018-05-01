@@ -1,0 +1,4 @@
+{
+  "httpProvider":"https://kovan.infura.io",
+  "port":3000
+}
