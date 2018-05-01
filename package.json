@@ -2,7 +2,7 @@
   "name": "tokeninfo",
   "version": "0.1",
   "description": "Simple api to get balance Ethereum ERC20 tokens and Info about Ethereum ERC20 tokens",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/SeptiyanAndika/TokenInfo#readme",
   "dependencies": {
+    "koa": "^2.5.1",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
     "web3": "^1.0.0-beta.34"
   }
 }
