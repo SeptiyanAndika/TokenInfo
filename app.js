@@ -31,7 +31,7 @@ async function balanceInfoController(ctx, next) {
     try {
         const contractAddress = ctx.params.contract;
         const userAddress = ctx.params.address;
-        const result = await lib.tokenInfo(contractAddress,userAddress)
+        const result = await lib.balanceInfo(contractAddress,userAddress)
         ctx.body = result
     }catch (e) {
         ctx.status = 400;
